@@ -1,7 +1,7 @@
 app:
     name: alertmanager
     code: alertmanager
-    notify: fjoy@ecloudcontrol.com
+    notify: akanade@ecloudcontrol.com
 
 build:
     version: 0.2
@@ -14,7 +14,7 @@ deploy:
     context: alpha/DEV
     type: statefulset
     replicas: 1
-    #ingress: none
+    ingress: none
     port:
     - 9093
 
