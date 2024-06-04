@@ -32,4 +32,4 @@ properties:
     CHANNEL_2: ashield-saas-alerts
     CLUSTER_NAME_1: AWSqa
     CLUSTER_NAME_2: AWSqa2
-    revision : 3
+    revision : 4
