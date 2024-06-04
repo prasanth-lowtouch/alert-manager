@@ -25,16 +25,16 @@ volumes:
     size: 50Gi
   
 properties:
-    SLACK_API_URL:
-      vault: SLACK_API_URL
-    SLACK_CHANNEL: appz-delivery
-    CLUSTER_NAME: AWSqa    
-#SLACK_API_URL_TWO:
-      #vault: SLACK_API_URL_TWO
-    #SLACK_API_URL_ONE:
-      #vault: SLACK_API_URL_ONE
-    #CHANNEL_2: appz-delivery
-    #CHANNEL_1: ashield-saas-alerts
-    #CLUSTER_NAME_1: AWSqa
-    #CLUSTER_NAME_2: AWSqa2
+    #SLACK_API_URL:
+      #vault: SLACK_API_URL
+    #SLACK_CHANNEL: appz-delivery
+    #CLUSTER_NAME: AWSqa    
+    SLACK_API_URL_TWO:
+      vault: SLACK_API_URL_TWO
+    SLACK_API_URL_ONE:
+      vault: SLACK_API_URL_ONE
+    CHANNEL_2: appz-delivery
+    CHANNEL_1: ashield-saas-alerts
+    CLUSTER_NAME_1: AWSqa
+    CLUSTER_NAME_2: AWSqa2
     revision : 8
