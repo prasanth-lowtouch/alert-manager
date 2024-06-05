@@ -37,4 +37,4 @@ properties:
     CHANNEL_1: appz-delivery
     CLUSTER_NAME_1: AWSqa
     CLUSTER_NAME_2: AWSqa2
-    revision : 12
+    revision : 13
