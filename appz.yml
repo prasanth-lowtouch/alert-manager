@@ -28,6 +28,6 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
-    CLUSTER_NAME: AWSqa    
+    CLUSTER_NAME: OCIqa    
 
-    revision : 28
+    revision : 1
