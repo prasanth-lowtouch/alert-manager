@@ -27,5 +27,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: AWS_QA
+    CLUSTER_NAME: cloudorbit
     revision : 19
