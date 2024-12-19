@@ -30,4 +30,4 @@ properties:
     SLACK_CHANNEL: appz-delivery
     CLUSTER_NAME: AWS-QA-ISO
 
-    revision : 31
+    revision : 32
