@@ -28,6 +28,6 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
-    CLUSTER_NAME: AWS-QA-ONE
+    CLUSTER_NAME: AWS-QA-ISO
 
     revision : 30
