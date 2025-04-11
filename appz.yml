@@ -27,5 +27,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
-    CLUSTER_NAME: appz-fed
-    revision : 29
+    CLUSTER_NAME: appz-janabank
+    revision : 0
