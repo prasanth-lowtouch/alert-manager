@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: appz-delivery
     CLUSTER_NAME: appz-janabank
-    revision : 0
+    revision : 1
