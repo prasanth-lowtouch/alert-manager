@@ -1,7 +1,7 @@
 app:
     name: alertmanager
     code: alertmanager
-    notify: njose@ecloudcontrol.com
+    notify: apaul@ecloudcontrol.com
 
 build:
     version: 0.27
@@ -27,5 +27,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: JustWallet
-    revision : 6
+    CLUSTER_NAME: mediamelon
+    revision : 0
