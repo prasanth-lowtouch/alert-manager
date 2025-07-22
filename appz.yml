@@ -5,13 +5,13 @@ app:
 
 build:
     version: 0.27
-    env: DEV
+    env: PROD
     build_file: none
     output_files: output/*.zip
     image_template: alertmanager-0.27
 
 deploy:
-    context: alpha/DEV
+    context: alpha/PROD
     type: statefulset
     replicas: 1
     port:
@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
     CLUSTER_NAME: Trade-Ideas
-    revision : 5
+    revision : 1
