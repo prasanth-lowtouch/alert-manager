@@ -4,14 +4,14 @@ app:
     notify: appz@ecloudcontrol.com
 
 build:
-    version: 0.2
-    env: DEV
+    version: 0.27
+    env: PROD
     build_file: none
     output_files: output/*.zip
-    image_template: alertmanager-0.20
+    image_template: alertmanager-0.27
 
 deploy:
-    context: alpha/DEV
+    context: alpha/PROD
     type: statefulset
     replicas: 1
     port:
@@ -22,10 +22,11 @@ volumes:
     mount: /appz/data
     name: data
     size: 50Gi
+    matchLabels: false
   
 properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: AWS_QA
-    revision : 19
+    CLUSTER_NAME: Trade-Ideas-PROD
+    revision : 1
