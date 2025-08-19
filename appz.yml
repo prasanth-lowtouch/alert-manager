@@ -27,5 +27,5 @@ properties:
     SLACK_API_URL:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
-    CLUSTER_NAME: Trade-Ideas
+    CLUSTER_NAME: Trade-Ideas-DEV
     revision : 5
