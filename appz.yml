@@ -11,7 +11,7 @@ build:
     image_template: alertmanager-0.20
 
 deploy:
-    context: prasanth-lowtouch
+    context: prasanth-lowtouch/DEV
     type: statefulset
     replicas: 1
     port:
@@ -28,4 +28,4 @@ properties:
       vault: SLACK_API_URL
     SLACK_CHANNEL: notification-openebs
     CLUSTER_NAME: AWS_QA
-    revision : 21
+    revision : 22
